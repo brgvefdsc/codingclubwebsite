@@ -49,8 +49,9 @@ h1{
 }
 
 .flexnav a{
-    color: black;
+    color: #ffffff;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
+    margin: 7px;
 }
