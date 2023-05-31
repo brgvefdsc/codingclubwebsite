@@ -1,0 +1,1 @@
+Hello this is a folder with a copy of the Website homepage, and a blank website page that you can edit. Feel free to do as you want to any of these files

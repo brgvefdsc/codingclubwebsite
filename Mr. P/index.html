@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    @import url(theme.css); 
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Oswald&family=Source+Sans+Pro:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Oswald&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Ubuntu+Mono&display=swap');
+    </style>
+
+</head>
+<body class="bod">
+    <!-- <h1>BAYFRONT</h1> -->
+    <!-- <div class="topnav">
+        <img src="index.png" alt="" style="height: 50px; width: 50px;  text-align: center;">
+        
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Charter Board</a>
+        <a href="#">Academics</a>
+        <a href="#">Support Staff</a>
+        <a href="#">Students</a>
+        <a href="#">Parents</a>
+    </div> -->
+
+    <div class="flexnav" >
+        <a href="" style="margin-left: 15px;">Home</a>
+        <!-- Add Items Below this one -->
+        <a href="">About</a>
+        <a href="">About</a>
+        <a href="">About</a>
+        <a href="">About</a>
+        <a href="">About</a>
+        <a href="">Charter Board</a>
+        <a href="">Admissions</a>
+        <a href="">Support Staff </a>
+        <a href="" style="margin-right: 15px;">Athletics</a>
+    </div>
+
+    <h1>Bayfront Charter High School</h1>
+
+    <!-- The Slide Show -->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="https://picsum.photos/1250/300" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+        
+          <img src="https://picsum.photos/1250/300" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="https://picsum.photos/1250/300" style="width:100%">
+        
+        </div>
+        
+        </div>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          // get the pictures bt it's class name 
+          let slides = document.getElementsByClassName("mySlides");
+          // Does the same but with the dots
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            // sets all slides to be hidden
+            slides[i].style.display = "none";  
+          }
+          // Adds 1 to slideIndex whos defalt vale is 0
+          slideIndex++;
+          // Checks to see of the side index is greater then the length, if it is it sets the slide index to 1
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+        </script>
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=ZXJpay5yZXNlbmRpekBiYXlmcm9udGNoYXJ0ZXIuY29t&src=Y19jbGFzc3Jvb21hM2JmNzZjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTFhYTE5MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zMzMyMTMyOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mYmJjZDZjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230047a8&color=%23137333&color=%23202124&color=%23c26401" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</body>
+</html>
