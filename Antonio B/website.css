@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    color: rgb(32, 92, 130);
+    text-align: center;
+    /* background-color: white; */
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    height:4rem;
+}
+/* .topnav{
+    overflow: hidden;
+    background-color: rgb(0, 150, 173);
+    margin: 10px;
+    padding: 5px;
+    /* height: em; */
+    /* border-radius: 25px;
+} */
+/* .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 20px;
+  } */
+  /* .topnav img{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    /* padding: 14px 16px; */
+    /* text-decoration: none;
+    font-size: 17px;
+  }  */ 
+
+.flexnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 150, 173);
+    margin: 10px;
+    padding: 5px;
+    height: 2em;
+    border-radius: 10px;
+ 
+}
+
+.flexnav a{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 7px;
+}
+
+body{
+    font-family: 'Comic Neue ' ;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1250px;
+    position: relative;
+    margin: auto;
+  }
+  .slideshow-container img{
+    height: 300px;
+
+    width: 970px;
+ 
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+
+
+#Bell_schedule {
+    height:780px;
+    width:625px;
+    border-style:solid;
+    border-width:1px;
+    margin-left:20px
+
+}
+#calander_schedule{ 
+    height:780px;
+    width:625px;
+    border-style:solid;
+    border-width:1px;
+    margin-left:1px;
+}
+#mission_statement{
+    margin-left:550px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:30px
+}
+#about_us_page_cont{
+    border:0px;
+    width:1300px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#contact_us{
+    border:5px;
+    height:500px;
+    width:600px;
+    border-style:solid;
+    padding:0px;
+    border-color:rgb(32, 92, 130);
+    margin-left:30px
+}
+#Faculty_and_staff{
+    border:5px;
+    height:500px;
+    width:600px;
+    border-style:solid;
+    padding:0px;
+    border-color:rgb(32, 92, 130);
+    margin-left:20px
+}
+#charter_board{
+    height:500px;
+    width:600px;
+    border:5px;
+    border-style:solid;
+    border-color:rgb(32, 92, 130);
+    padding:0px;
+    margin-left:30px
+}
+#employment_opportunities{
+    height:500px;
+    width:600px;
+    border:5px;
+    border-style:solid;
+    border-color:rgb(32, 92, 130);
+    padding:0px;
+    margin-left:20px
+}
+#M_statement{
+    font-family:"Comic";
+    font-size:30px;
+    margin-left:50px
+}
+#about_us_header{
+    margin-left:590px;
+    margin-top:-9px;
+    margin-bottom:0px;
+    font-size:40px;
+    font-family:"Oswald";
+    color:#2ab7ac;
+    
+}
+#About_us_main_page{
+    background-color:#f1f1f1
+}
+#bottom_text{
+    margin-left:300px;
+    width:250px
+}
