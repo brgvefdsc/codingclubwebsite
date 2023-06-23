@@ -27,6 +27,8 @@
         <a href="#">Students</a>
         <a href="#">Parents</a>
     </div> -->
+    <h1>Bayfront Charter High School</h1>
+
 
     <div class="flexnav" >
         <a href="" style="margin-left: 15px;">Home</a>
@@ -42,7 +44,6 @@
         <a href="" style="margin-right: 15px;">Athletics</a>
     </div>
 
-    <h1>Bayfront Charter High School</h1>
 
     <!-- The Slide Show -->
 
@@ -96,6 +97,46 @@
           setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
         </script>
+  <div class="tab">
+    <button id="defaultOpen" class="tablinks" onclick="clickHandle(event, 'Cat')">General</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Bear')">Athletics</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Dog')">Academics</button>
+  </div>
+
+  <div id="Cat" class="tabcontent">
     <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=ZXJpay5yZXNlbmRpekBiYXlmcm9udGNoYXJ0ZXIuY29t&src=Y19jbGFzc3Jvb21hM2JmNzZjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTFhYTE5MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zMzMyMTMyOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mYmJjZDZjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230047a8&color=%23137333&color=%23202124&color=%23c26401" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <div id="Bear" class="tabcontent">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=ZXJpay5yZXNlbmRpekBiYXlmcm9udGNoYXJ0ZXIuY29t&src=Y19jbGFzc3Jvb21hM2JmNzZjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTFhYTE5MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zMzMyMTMyOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mYmJjZDZjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230047a8&color=%23137333&color=%23202124&color=%23c26401" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
+
+  <div id="Dog" class="tabcontent">
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=ZXJpay5yZXNlbmRpekBiYXlmcm9udGNoYXJ0ZXIuY29t&src=Y19jbGFzc3Jvb21hM2JmNzZjOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb201NTFhYTE5MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20zMzMyMTMyOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb21mYmJjZDZjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230047a8&color=%23137333&color=%23202124&color=%23c26401" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+
+<script>
+function clickHandle(evt, animalName) {
+  let i, tabcontent, tablinks;
+
+  // This is to clear the previous clicked content.
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Set the tab to be "active".
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Display the clicked tab and set it to active.
+  document.getElementById(animalName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+        
 </body>
 </html>
