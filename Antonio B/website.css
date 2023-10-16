@@ -125,7 +125,7 @@ body{
 }
 #about_us_page_cont{
     border:0px;
-    width:1300px;
+    width:1400px;
     margin-right:auto;
     margin-left:auto;
     background-color:#ffffff;
@@ -188,4 +188,110 @@ body{
 #bottom_text{
     margin-left:300px;
     width:250px
+}
+#Academics_hr1{
+    border:0px;
+    width:1400px;
+    height:2950px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:#ffffff;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#Academics_header{
+    margin-left:575px;
+    margin-top:-9px;
+    margin-bottom:0px;
+    font-size:40px;
+    font-family:"Oswald";
+    color:#2ab7ac;
+    
+}
+#Academic_mission_statement{
+    margin-left:475px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+}
+#A_M_statement{
+    font-family:"comic";
+    font-size:30px;
+    margin:35px
+}
+#academics_banner{
+    border:3px;
+    height:500px;
+    padding:1px;
+    background-color:#6495be;
+    margin-left:0px
+}
+#academics_pic{
+    height:500px;
+    width:1500px;
+    margin-left:175px
+}
+#CC{
+    margin-left:30px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+}
+#CC_text{
+    font-size:30px
+}
+#AC{
+    margin-left:175px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+}
+#AC_text{
+    font-size:30px;
+    margin-right:600px;
+    margin-left:30px
+}
+#CLICK_HERE{
+    font-size:30px;
+    margin-left:250px
+}
+#course_description{
+    margin-left:30px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+}
+#AIMGS{
+    width:650px;
+    margin-left:35px
+}
+#Electives{
+    margin-left:30px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+}
+#electives_pic{
+    width:500px;
+    height:350px;
+    margin-left:50px;
+    margin-bottom:50px
+}
+#electives_text{
+    font-size:30px;
+    margin-right:-10px;
+    margin-left:600px;
+    margin-top:-400px
+}
+#schedule{
+    margin-left:50px;
+    color:#2ab7ac;
+    font-family:"Oswald";
+    font-size:40px
+} 
+#Block_text{
+    font-size:30px;
+    margin-right:10px;
+    margin-left:50px;
+    margin-top:-50px
 }
